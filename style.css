@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Ubuntu Sans", serif;    
+}
+
+#starbucks-icon{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('/assets/logo.svg');
+    margin: 0 25px;
+    background-size: cover;
+}
+
+header{
+    height: 90px;
+}
+
+nav{
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+section img{
+    width: 50%;
+    height: 50%;
+}
+
+.navBarButton, #starbucks-icon{
+    vertical-align: middle;
+}
+
+.navBarButton{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.navBarButton a{
+    color: #212121;
+    padding-bottom: 30px;
+}
+
+a:hover{
+    border-bottom: 5px solid #00754a;
+    color: #00754a;
+}
+
+.banner{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner h1{
+    font-size: 28px;
+    margin-bottom: 25px;
+    }
+
+.banner p{
+    font-size: 18.5px;
+    line-height: 30px;
+}
+
+.banner div{
+    align-content: center;
+    padding: 0 60px;
+}
+#latte-starbucks{
+    background-color: #1e3932;
+    color: white;
+}
+#trescafes-starbucks{
+    background-color: #cae390;
+    color: #1e3932;
+}
+#tostado-starbucks{
+    background-color: #f5e1a4;
+}
+#cafemano-starbucks{
+    background-color: #1e3932;
+    color: #ffffff;
+}
+#vasos-starbucks{
+    background-color: #474a6f;
+    color: #fffff6;
+    }
+button{
+    display: inline-block;
+    background: none;
+    color: #fff8e3;
+    border: 1px solid;
+    border-color: #dcdce3;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    cursor:pointer; 
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 40px;
+}
+button:hover{
+    background-color: #5d6080;   
+}
