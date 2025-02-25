@@ -12,13 +12,16 @@
 <body>
   <header>
     <nav class="miNavBar">
+      <div class="izquierda">
         <span id="starbucks-icon"></span>
         <div class="navBarButton"><a href="#">MENÚ</a></div>
         <div class="navBarButton"><a href="#">REWARDS</a></div>
-        <!-- <div><span></span>Localizar tienda</div>
-        <button>Ingresar</button>
-        <button>Únete</button> -->
-
+      </div>
+        <div class="derecha">
+          <div class="navBarButton"><a href="#">Localizar tienda</a></div>
+          <div class="navBarButton"><button id="boton_ingresar">Ingresar</button></div>
+          <div class="navBarButton"><button id="boton_unete">Únete</button></div>
+        </div>
     </nav>
   </header>  
   <main>
@@ -54,10 +57,21 @@
   <h1>BIENVENIDOS TODOS LOS VASOS</h1>
   <p>Hagamos del cuidado del planeta un propósito juntos.
     Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida.</p>
-    <button>Conoce más</button>
+    <button id="botonbody">Conoce más</button>
 </div>
 </section>
-<section class="banner"></section>
+<section class="noticias_promociones">
+  <div id="noticias">
+    <img  id="notipromos"  src="./assets/noticias.png" alt="">
+    <p>Consulta los eventos más recientes.</p>
+    <button id="botonbody">Aquí</button>
+  </div>
+  <div id="promociones">
+    <img id="notipromos" src="./assets/promociones.png" alt="">
+    <p>Términos y condiciones.</p>
+    <button id="botonbody">Ver más</button>
+  </div>
+</section>
   </main>
 </body>
 </html>
